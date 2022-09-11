@@ -1,0 +1,158 @@
+body {
+  text-align: center;
+  background-color: #011F3F;
+}
+
+#level-title {
+  font-family: 'Press Start 2P', cursive;
+  font-size: 3rem;
+  margin:  5%;
+  color: #FEF2BF;
+  line-height: 2;
+}
+
+.rules,li{
+  font-family: 'Press Start 2P', cursive;
+  font-size: 3rem;
+  margin:  15% 5%;
+  color: #FEF2BF;  
+  
+  
+
+}
+
+li{
+  margin : 5%;
+}
+
+.start-game{
+  padding: 20px;
+  font-size: 3.5rem;
+  border-radius: 10%;
+  font-weight: bolder;
+  font-family: 'Press Start 2P', cursive;
+}
+
+.start-game:hover{
+  background-color: rgb(216, 255, 242);
+  color: #011F3F;
+}
+
+.start-game:active{
+  font-size: 3rem;
+  background-color: rgb(216, 255, 242);
+  color: #011F3F;
+}
+
+.start-game1{
+  margin: 150px auto;
+  padding: 20px;
+  font-size: 3.5rem;
+  border-radius: 10%;
+  font-weight: bolder;
+  font-family: 'Press Start 2P', cursive;
+}
+
+.start-game1:hover{
+  background-color: rgb(216, 255, 242);
+  color: #011F3F;
+}
+
+.start-game1:active{
+  font-size: 3rem;
+  background-color: rgb(216, 255, 242);
+  color: #011F3F;
+}
+
+.container {
+  display: block;
+  width: 50%;
+  margin: auto;
+
+}
+
+.btn {
+  margin: 25px;
+  display: inline-block;
+  height: 200px;
+  width: 200px;
+  border: 10px solid black;
+  border-radius: 20%;
+}
+
+.game-over {
+  background-color: red;
+  opacity: 0.8;
+}
+
+.red {
+  background-color: red;
+}
+
+.green {
+  background-color: green;
+}
+
+.blue {
+  background-color: blue;
+}
+
+.yellow {
+  background-color: yellow;
+}
+
+.pressed {
+  box-shadow: 0 0 20px white;
+  background-color: grey;
+}
+
+
+@media (max-width : 1150px) {
+
+
+  
+  .container{
+    width: 90%;
+  }
+  h1{
+    line-height: 2;
+    padding: 20px;
+    margin-top: 30%;
+  }
+
+  .btn {
+    height: 300px;
+    width: 300px;
+  }
+  li{
+    text-align: left;
+    line-height: 2;
+  }
+}
+
+#game-area{
+  display: none;
+}
+
+.no-dis{
+  display: none;
+}
+
+.hint{
+  margin: 150px auto;
+  padding: 20px;
+  font-size: 3.5rem;
+  border-radius: 10%;
+  font-weight: bolder;
+  font-family: 'Press Start 2P', cursive;
+}
+.hint:hover{
+  background-color: rgb(216, 255, 242);
+  color: #011F3F;
+}
+
+.hint:active{
+  font-size: 3rem;
+  background-color: rgb(216, 255, 242);
+  color: #011F3F;
+}
